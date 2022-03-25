@@ -1,0 +1,30 @@
+/* BARRA DE NAVEGACION */
+.navbar {
+  padding: 0;
+  background: black;
+}
+.navbar-light .navbar-brand {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navegador {
+  color: white;
+}
+.navegador:hover {
+  color: gray;
+}
+
+/* CONTENIDO */
+.card-contenido {
+  display: grid;
+}
+
+.menu {
+  height: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
