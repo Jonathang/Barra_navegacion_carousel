@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <title>Bootstrap</title>
+  </head>
+
+  <body>
+    <!-- barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-3">
+      <div class="container-fluid">
+        <a class="navbar-brand navegador" href="index.html">
+          Framework Bootstrap
+        </a>
+
+        <!-- boton cuando se hacen pantallas pequeñas -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="true"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- ms-auto alinea las opciones hacia la derecha -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active">Columnas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="tabla.html">Tabla</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">Ubícanos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!--collapse -->
+
+        <!--d-flex -->
+      </div>
+      <!--container -->
+    </nav>
+
+    <div class="container-fluid">
+      <h1 class="text-center my-3">Ejemplo</h1>
+      <p class="text-center">
+        Este es un ejemplo de 3 columas a tamaño máximo, 2 columnas a tamaño
+        medio y 1 columna a tamaño pequeño.
+      </p>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="card col-lg-4 col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Card 1</h5>
+
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              debitis dicta soluta cum, sequi quis incidunt reiciendis ab nulla
+              recusandae vitae hic cumque ipsa repellendus libero sapiente
+              repellat, omnis optio! Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Officia dolore perspiciatis ipsam beatae earum
+              corporis fugiat dignissimos eveniet iure consectetur explicabo
+              consequatur cumque, inventore possimus velit aspernatur aliquid
+              similique. Maiores?
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-lg-4 col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Card 2</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              debitis dicta soluta cum, sequi quis incidunt reiciendis ab nulla
+              recusandae vitae hic cumque ipsa repellendus libero sapiente
+              repellat, omnis optio! Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Officia dolore perspiciatis ipsam beatae earum
+              corporis fugiat dignissimos eveniet iure consectetur explicabo
+              consequatur cumque, inventore possimus velit aspernatur aliquid
+              similique. Maiores?
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-lg-4 col-md-12">
+          <div class="card-body">
+            <h5 class="card-title">Card 3</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              debitis dicta soluta cum, sequi quis incidunt reiciendis ab nulla
+              recusandae vitae hic cumque ipsa repellendus libero sapiente
+              repellat, omnis optio! Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Officia dolore perspiciatis ipsam beatae earum
+              corporis fugiat dignissimos eveniet iure consectetur explicabo
+              consequatur cumque, inventore possimus velit aspernatur aliquid
+              similique. Maiores?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

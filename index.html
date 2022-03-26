@@ -11,51 +11,51 @@
 
   <body>
     <!-- barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-3">
       <div class="container-fluid">
         <a class="navbar-brand navegador" href="index.html">
           Framework Bootstrap
         </a>
-        <!-- recorre el menu hacia la izquierda -->
-        <div class="d-flex">
-          <!-- boton cuando se hacen pantallas pequeñas -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-0">
-              <li class="nav-item">
-                <!-- active es para seleccionar el item de la pagina activa -->
-                <a class="nav-link active">Bienvenido</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Sobre Nosotros</a>
-              </li>
+        <!-- boton cuando se hacen pantallas pequeñas -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="true"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-              <li class="nav-item">
-                <a class="nav-link">Competencia</a>
-              </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- ms-auto alinea las opciones hacia la derecha -->
+          <ul class="navbar-nav ms-auto">
+            <!-- active es para seleccionar el item de la pagina activa -->
+            <li class="nav-item">
+              <a class="nav-link active">Inicio</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link">Iniciar Sesión</a>
-              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="columnas.html">Columnas</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link">Contacto</a>
-              </li>
-            </ul>
-          </div>
-          <!--collapse -->
+            <li class="nav-item">
+              <a class="nav-link" href="tabla.html">Tabla</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">Ubícanos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">Contacto</a>
+            </li>
+          </ul>
         </div>
+        <!--collapse -->
+
         <!--d-flex -->
       </div>
       <!--container -->
@@ -88,23 +88,29 @@
       <div class="carousel-inner">
         <!-- imagen 1 -->
         <div class="carousel-item active">
-          <img src="img/imagen01.jpg" class="d-block w-100" />
+          <a href="columnas.html"
+            ><img src="img/imagen01.jpg" class="d-block w-100"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
-            <h5>Imagen #1</h5>
+            <h5>Columnas</h5>
           </div>
         </div>
         <!-- imagen 2 -->
         <div class="carousel-item">
-          <img src="img/imagen02.jpg" class="d-block w-100" />
+          <a href="tabla.html"
+            ><img src="img/imagen02.jpg" class="d-block w-100"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
-            <h5>Imagen #2</h5>
+            <h5>Tabla</h5>
           </div>
         </div>
         <!-- imagen 3 -->
         <div class="carousel-item">
-          <img src="img/imagen03.jpg" class="d-block w-100" />
+          <a href="columnas.html"
+            ><img src="img/imagen03.jpg" class="d-block w-100"
+          /></a>
           <div class="carousel-caption d-none d-md-block">
-            <h5>Imagen #3</h5>
+            <h5>Columnas</h5>
           </div>
         </div>
       </div>
